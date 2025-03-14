@@ -7,3 +7,15 @@ with open("youtube.txt", "r", encoding="utf-8") as file:
 
 
 
+
+sleepy_person= input("are you sleeping?")
+if sleepy_person== "yes":
+    print("go to sleep")
+elif sleepy_person== "no" :
+    print("stay in class")
+# you are telling the user to print sleppy or not
+else:
+    print("you can only write yes or no")    
+
+
+
